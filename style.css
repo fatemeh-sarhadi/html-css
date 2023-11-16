@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    height: auto;
+}
+
+.countainer {
+    width: 100%px;
+    margin: auto;
+}
+
+.box {
+    margin: 0%;
+    display: inline;
+}
+
+#header {
+    background-color: #2C3E50;
+    color: white;
+    margin: auto;
+    display: flexbox;
+}
+
+#logo {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    margin: 0 50px;
+    float: left;
+}
+
+#header a {
+    /* زیر خط تگ های a */
+    text-decoration: none;
+    color: white;
+}
+
+#header a:hover {
+    color: #1ABC9C;
+}
+
+#header li {
+    display: inline;
+    padding-left: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+.item1 {
+    background-color: #1ABC9C;
+    font-size: 25px;
+    padding: 80px 0;
+    justify-content: row;
+    display: flex;
+}
+
+#main img {
+    width: 100%;
+    height: 300px;
+}
+
+.uper {
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.item1 .line {
+    height: 2px;
+    width: 19%;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    margin: 28px 10px;
+    display: inline-flex;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#header ul {
+    text-align: right;
+    padding-top: 35px;
+    padding: 35px 55px;
+}
+
+#main p {
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px;
+}
+
+#item2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    padding: 80px 0;
+    background-color: white;
+    display: flex;
+}
+
+#item2 .line {
+    height: 2px;
+    width: 4%;
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+
+#item2 img {
+    width: 360px;
+    height: 290px;
+    border-radius: 20px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.item3 {
+    text-transform: uppercase;
+    color: black;
+    background-color: #1ABC9C;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+.item3 .line {
+    height: 2px;
+    width: 4%;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.item3 p {
+    display: inline-flex;
+}
+
+.item3 button {
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 30px;
+    border: 1px solid white;
+    padding: 15px;
+    color: white;
+}
+
+.item4 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.item4 .line {
+    height: 2px;
+    width: 4%;
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+
+.item4 input,
+textarea {
+    margin: 30px;
+    border: none;
+    border-bottom: 1px solid lightslategrey;
+    width: 500px;
+    padding: 20px;
+}
+
+.item4 button {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#footer {
+    background-color: #2C3E50;
+    text-align: center;
+    color: white;
+}
+
+#footer ul {
+    padding: 80px 0;
+    width: 380px;
+    display: inline-block;
+}
+
+#footer ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
+#footer ul li a:hover {
+    color: white;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.circle:hover {
+    background-color: white;
+}
+
+.box {
+    width: 34px;
+    height: 32px;
+    position: relative;
+    right: 1px;
+}
+
+#footer div:nth-child(2) {
+    background-color: #182838;
+    padding: 10px 0;
+}
